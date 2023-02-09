@@ -1,1 +1,1 @@
-# react-projects
+# Quiz application

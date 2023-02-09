@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "question": "Как назывался первый советский фильм-катастрофа?",
+    "answers": [
+      {
+        "text": "34-й скорый",
+        "correct": false
+      },
+      {
+        "text": "Экипаж",
+        "correct": true
+      },
+      {
+        "text": "Остановился поезд",
+        "correct": false
+      },
+      {
+        "text": "Берегись автомобиля",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Какой газ преобладает в атмосфере Земли?",
+    "answers": [
+      {
+        "text": "Азот",
+        "correct": true
+      },
+      {
+        "text": "Кислород",
+        "correct": false
+      },
+      {
+        "text": "Углекислый газ",
+        "correct": false
+      },
+      {
+        "text": "Водород",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Как называется один из конкурсов телеигры «КВН»?",
+    "answers": [
+      {
+        "text": "Контрольная работа",
+        "correct": false
+      },
+      {
+        "text": "Диктант",
+        "correct": false
+      },
+      {
+        "text": "Работа над ошибками",
+        "correct": false
+      },
+      {
+        "text": "Домашнее задание",
+        "correct": true
+      }
+    ]
+  }
+]
