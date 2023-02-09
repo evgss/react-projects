@@ -1,0 +1,79 @@
+.achievements {
+    width: 100vw;
+    padding: 0 60px;
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+.achievements__head {
+    flex: 3;
+}
+
+.achievements__info {
+    flex: 10;
+    display: grid;
+    grid-template-areas: "a b c" "d e e";
+    align-items: center;
+    grid-gap: 20px;
+    font-size: 24px;
+    line-height: 2.5rem;
+}
+
+.achievements__title {
+    font-size: 28px;
+}
+
+.achievements__digits {
+    color: #2EB3CE;
+    font-size: 38px;
+}
+
+.achievements__line {
+    background-color: #2eb3ce;
+    width: 150px;
+    height: 6px;
+    margin-bottom: 20px;
+}
+
+.achievements__source {
+    grid-area: a;
+}
+
+.achievements__net {
+    grid-area: b;
+}
+
+.achievements__underground {
+    grid-area: c;
+}
+
+.achievements__water {
+    grid-area: d;
+}
+
+.achievements__square {
+    grid-area: e;
+}
+
+@media screen and (max-width: 1320px) {
+    .achievements {
+        flex-direction: column;
+    }
+    .achievements__head{
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .achievements{
+        padding: 0 10px;
+    }
+    .achievements__info {
+        grid-template-areas: "a" "b" "c" "d" "e";
+    }
+
+    .achievements__info > div {
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "teploplus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node api/index.js",
+    "client:build": "npm run build --prefix client",
+    "dev": "concurrently \"npm run start --prefix client\" \"npm run server --prefix api\" ",
+    "client": "npm start --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgss/teploplus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evgss/teploplus/issues"
+  },
+  "homepage": "https://github.com/evgss/teploplus#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}

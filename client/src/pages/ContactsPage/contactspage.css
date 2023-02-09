@@ -1,0 +1,9 @@
+.contactspage{
+    min-height: calc(100vh - 250px);
+}
+
+@media screen and (max-width: 875px){
+    .contactspage{
+        margin-top: 50px;
+    }
+}

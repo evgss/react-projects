@@ -1,0 +1,33 @@
+.topbarmobile{
+    width: 100vw;
+    height: 70px;
+    background-color: #302E49;
+    color: #E8E7EA;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.topbarmobile__icon{
+    cursor: pointer;
+}
+.topbarmobile__list{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    color: #E8E7EA;
+}
+.topbarmobile__item{
+    text-align: left;
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #302E49;
+    transition: all 0.05s ease-in;
+}
+
+.topbarmobile__item:hover{
+    color: #686498;
+    background-color: #697881;
+}

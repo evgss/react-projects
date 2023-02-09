@@ -1,0 +1,134 @@
+.topbar {
+    width: 100vw;
+    height: 100px;
+    padding: 0 60px;
+    font-size: 14px;
+    color: #525252;
+}
+
+.topbar__inner {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.topbar__inner__left__logo {
+    height: 50px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.topbar__inner__left {
+    flex: 6.5;
+    display: flex;
+    height: 30%;
+}
+
+.topbar__inner__left__list {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-self: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.topbar__inner__left__list__item {
+    margin-right: 30px;
+    border-bottom: 3px solid #FFF;
+    transition: 0.5s all ease;
+    display: flex;
+    align-items: center;
+}
+
+.topbar__inner__left__list__item:hover {
+    border-bottom: 3px solid #2EB3CE;
+}
+
+.topbar__inner__right {
+    flex: 1;
+    white-space: nowrap;
+    align-self: center;
+    text-align: right;
+}
+
+.topbar__inner__right > div {
+    font-style: italic;
+    color: black;
+}
+
+.topbar__inner__right__height {
+    height: 30px;
+    width: 1px;
+    background-color: #DEDEDE;
+}
+
+.topbar__inner__right__login {
+    cursor: pointer;
+}
+
+.topbar__inner__right__email {
+    font-style: italic;
+}
+
+.topbar__inner__mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1430px) {
+    .topbar {
+        padding: 0 20px;
+    }
+
+    .topbar__inner {
+        justify-content: center;
+    }
+
+    .topbar__inner__right {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    .topbar__inner {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 995px) {
+    .topbar {
+        height: 100%;
+        padding: 0;
+    }
+
+    .topbar__inner {
+        justify-content: center;
+        display: none;
+    }
+
+    .topbar__inner__mobile {
+        display: flex;
+    }
+
+    .topbar__inner__left {
+        justify-content: center;
+    }
+
+    .topbar__inner__left__list {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .topbar__inner__left__list__item {
+        margin-bottom: 5px;
+        margin-left: 32px;
+        padding: 5px 0;
+    }
+
+    .logo {
+        display: none;
+    }
+}

@@ -1,1 +1,1 @@
-# react-projects
+# SPA управляющей компании

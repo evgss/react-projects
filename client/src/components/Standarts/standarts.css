@@ -1,0 +1,14 @@
+.standarts{
+    min-height: calc(100vh - 250px);
+    padding: 30px 60px;
+}
+
+.standarts__left{
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 875px) {
+    .standarts{
+        padding: 30px 15px;
+    }
+}

@@ -1,0 +1,79 @@
+.modalwindow {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+}
+
+.modalwindow.active {
+    transform: scale(1);
+}
+
+
+.modalwindow__main {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #FFF;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalwindow__main__buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.modalwindow__main__title {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.modalwindow__main__delete {
+    margin: 30px auto;
+    border: none;
+    width: 175px;
+    height: 60px;
+    background-color: red;
+    color: #E8E7EA;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.modalwindow__main__cancel {
+    margin: 30px auto;
+    border: none;
+    width: 175px;
+    height: 60px;
+    background-color: #302E49;
+    color: #E8E7EA;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 875px){
+    .modalwindow{
+        padding: 0 15px;
+    }
+    .modalwindow__main{
+        height: 400px;
+    }
+    .modalwindow__main__buttons{
+        flex-direction: column;
+    }
+}
